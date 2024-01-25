@@ -1,0 +1,46 @@
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Lexend+Deca:wght@100;200;300;400;500;600;700&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	display: flexbox;
+}
+
+.bg-custom{
+	background-color: #ab47bc!important;
+}
+body{
+	background-color: #e6e6e6;
+	padding-bottom: 2rem!important;
+}
+.admin .card{
+	border: 1px solid red;
+}
+.admin .card:hover {
+	background: #e6e6e6;
+	cursor: pointer;
+}
+.list-group-item.active{
+	background-color: #ab47bc!important;
+	border-color:#ab47bc!important;
+}
+.discount-lbl{
+	font-size: 14px!important;
+	font-style: italic;
+	text-decoration: line-through;
+}
+footer{
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	background: #6f9196;
+}
+
+.header{
+	text-transform:uppercase;
+    font-size: 2.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+}

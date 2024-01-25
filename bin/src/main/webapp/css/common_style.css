@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	display: flexbox;
+}
+
+.navbar{
+	background-color: #ab47bc;
+}
+body{
+	background-color: #e6e6e6;
+}
+.admin .card{
+	border: 1px solid red;
+}
+.admin .card:hover {
+	background: #e6e6e6;
+	cursor: pointer;
+}
